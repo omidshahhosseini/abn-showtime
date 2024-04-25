@@ -6,17 +6,21 @@ This project is built using Node.js version 16.14.0 and npm version 8.3.1. It fo
 
 ### Folder Structure
 
+```bash
 src/
-|-- assets/
-|-- components/
-| |-- base/
-| |-- [Other component directories]
-|-- constants/
-|-- router/
-|-- services/
-| |-- [Service directories]
-|-- utils/
-|-- views/
+|-- assets/                  # Global static assets (images, SVGs, etc.)
+|-- components/              # Global shared/reusable components
+|   |-- base/                # Base components
+|   |-- [Other component directories]  # Additional component directories
+|-- constants/               # Constants and configuration files
+|-- router/                  # Routing configuration
+|-- services/                # JavaScript modules for services
+|   |-- [Service directories]  # Specific service modules
+|-- utils/                   # Utility functions and helpers
+|-- views/                   # Main views or pages
+
+```
+
 
 - **Assets:** Contains static assets used in the application.
 - **Components:** Reusable UI components, with a specific directory for base components, forming the foundation of a design system.
